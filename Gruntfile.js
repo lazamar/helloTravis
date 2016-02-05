@@ -18,7 +18,7 @@ module.exports = function (grunt) {
     githooks: {
       all: {
         'pre-commit': {
-          taskNames: 'jshint jscs',
+          taskNames: 'jshint',
           template: '.grunt-githooks/pre-commit.js'
         }
       }

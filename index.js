@@ -10,6 +10,6 @@ define([], function () {
       return 'Hello, ' + name + '!';
     },
 
-    meet: 'Hi'
+meet: 'Hi'
   };
 });

@@ -4,8 +4,6 @@ var exec = require('child_process').exec;
 
 // https://npmjs.org/package/execSync
 // Executes shell commands synchronously
-var sh = require('execSync').run;
-
 exec('git diff --cached --quiet', function (err, stdout, stderr) {
 
   // only run if there are staged changes
